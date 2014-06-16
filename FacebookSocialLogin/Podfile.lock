@@ -1,16 +1,10 @@
 PODS:
-  - Bolts (1.1.0)
-  - Facebook-iOS-SDK (3.15.0):
-    - Bolts
   - Parus (1.0)
 
 DEPENDENCIES:
-  - Facebook-iOS-SDK
   - Parus
 
 SPEC CHECKSUMS:
-  Bolts: 91c2af8eae1d44e1dd75946a5b0ae04a43ea43e4
-  Facebook-iOS-SDK: d67a9aa373f28b581e00cefdfd5a1ab8f883ac14
   Parus: 4ed2c119d86103e160a3820d81564c08cf330eb0
 
 COCOAPODS: 0.32.1

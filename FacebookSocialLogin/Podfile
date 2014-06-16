@@ -3,7 +3,6 @@
 
 target "FacebookSocialLogin" do
 
-pod 'Facebook-iOS-SDK', :inhibit_warnings => true
 pod 'Parus'
 
 end

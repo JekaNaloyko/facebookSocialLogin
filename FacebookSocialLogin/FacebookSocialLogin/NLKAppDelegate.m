@@ -8,7 +8,7 @@
 
 #import "NLKAppDelegate.h"
 #import "NLKInitialViewController.h"
-#import <FacebookSDK/Facebook.h>
+#import <FacebookSDK/FacebookSDK.h>
 
 @implementation NLKAppDelegate
 

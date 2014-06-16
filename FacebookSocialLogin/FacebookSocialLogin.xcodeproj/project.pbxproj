@@ -21,6 +21,7 @@
 		C9CF7841194F5970006D71CA /* FacebookSocialLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CF7840194F5970006D71CA /* FacebookSocialLoginTests.m */; };
 		C9CF784C194F5BD2006D71CA /* NLKInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CF784B194F5BD2006D71CA /* NLKInitialViewController.m */; };
 		C9CF784D194F5BD2006D71CA /* NLKInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CF784B194F5BD2006D71CA /* NLKInitialViewController.m */; };
+		C9CF7854194F757D006D71CA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CF7853194F757D006D71CA /* FacebookSDK.framework */; };
 		F8CC5DC796074DF39A19AC6E /* libPods-FacebookSocialLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B365432202CB4646BEA6CAD4 /* libPods-FacebookSocialLogin.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		C9CF7840194F5970006D71CA /* FacebookSocialLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookSocialLoginTests.m; sourceTree = "<group>"; };
 		C9CF784A194F5BD2006D71CA /* NLKInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLKInitialViewController.h; sourceTree = "<group>"; };
 		C9CF784B194F5BD2006D71CA /* NLKInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLKInitialViewController.m; sourceTree = "<group>"; };
+		C9CF7853194F757D006D71CA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9CF781E194F596F006D71CA /* CoreGraphics.framework in Frameworks */,
+				C9CF7854194F757D006D71CA /* FacebookSDK.framework in Frameworks */,
 				C9CF7820194F596F006D71CA /* UIKit.framework in Frameworks */,
 				C9CF781C194F596F006D71CA /* Foundation.framework in Frameworks */,
 				F8CC5DC796074DF39A19AC6E /* libPods-FacebookSocialLogin.a in Frameworks */,
@@ -105,6 +108,7 @@
 		C9CF781A194F596F006D71CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9CF7853194F757D006D71CA /* FacebookSDK.framework */,
 				C9CF781B194F596F006D71CA /* Foundation.framework */,
 				C9CF781D194F596F006D71CA /* CoreGraphics.framework */,
 				C9CF781F194F596F006D71CA /* UIKit.framework */,
@@ -410,9 +414,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FacebookSocialLogin/FacebookSocialLogin-Prefix.pch";
 				INFOPLIST_FILE = "FacebookSocialLogin/FacebookSocialLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -424,9 +433,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FacebookSocialLogin/FacebookSocialLogin-Prefix.pch";
 				INFOPLIST_FILE = "FacebookSocialLogin/FacebookSocialLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

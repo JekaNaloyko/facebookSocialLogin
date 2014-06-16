@@ -4,16 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-FacebookSocialLogin-Bolts.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-FacebookSocialLogin-Facebook-iOS-SDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-FacebookSocialLogin-Parus.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>018D24D6426E49EA8DC9038B</key>
+		<key>74EF905944F64C0382BBF605</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>867C368EC9F84B839037DCB7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DC80F02C2E364D618DDABEBF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E50A4BA210AF499ABE91B012</key>
+		<key>A9660EF3E1CD4D46A114DA7B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
