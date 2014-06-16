@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-FacebookSocialLogin-Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FacebookSocialLogin-Facebook-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FacebookSocialLogin-Parus.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FacebookSocialLogin.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>018D24D6426E49EA8DC9038B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>867C368EC9F84B839037DCB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC80F02C2E364D618DDABEBF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E50A4BA210AF499ABE91B012</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

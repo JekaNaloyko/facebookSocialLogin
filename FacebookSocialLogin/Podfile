@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "FacebookSocialLogin" do
+
+pod 'Facebook-iOS-SDK', :inhibit_warnings => true
+pod 'Parus'
+
+end
+
+target "FacebookSocialLoginTests" do
+
+end
+
